@@ -3,8 +3,8 @@ description = "Spectro Cloud API endpoint"
   type        = string
   default     = "api.spectrocloud.com"
 }
-variable "sc_username" {}
-variable "sc_password" {} 
+variable "SC_USERNAME" {}
+variable "SC_PASSWORD" {} 
 variable "sc_project_name" {     
 description = "Spectro Cloud Project name" 
   type        = string
