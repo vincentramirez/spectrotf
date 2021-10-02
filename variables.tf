@@ -17,5 +17,14 @@ variable "AWS_SECRET_ACCESS_KEY" {}
 
 # Cluster
 variable "aws_ssh_key_name" {}
-variable "aws_region" {}
-variable "aws_region_az" {}
+variable "aws_region" {
+description = "aws operating region"
+  type        = string
+  default     = "us-east-1"
+}
+
+variable "aws_region_az" {
+description = "aws availability zones"
+  type        = string
+  default     = ["us-east-1a","us-east-1b","us-east-1c"]
+}
