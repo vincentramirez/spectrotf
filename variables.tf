@@ -1,14 +1,14 @@
 variable "sc_host" {
 description = "Spectro Cloud API endpoint" 
   type        = string
-  default     = "api.spectrocloud.com" # for enterprise mode," private-hosted", enter DNS name
+  default     = "api.spectrocloud.com"
 }
-variable "sc_username" {} #e.g: user1@abc.com
-variable "sc_password" {} #e.g: superSecure1!
+variable "sc_username" {}
+variable "sc_password" {} 
 variable "sc_project_name" {     
 description = "Spectro Cloud Project name" 
   type        = string
-  default     = "Default"  #e.g.: use "Default" if no projects have been created
+  default     = "Default"  
 }
 
 
@@ -26,5 +26,5 @@ description = "aws operating region"
 variable "aws_region_az" {
 description = "aws availability zones"
   type        = string
-  default     = ["us-east-1a","us-east-1b","us-east-1c"]
+  default     = ["us-east-1a"]
 }
