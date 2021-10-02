@@ -11,10 +11,10 @@ description = "Spectro Cloud Project name"
   default     = "Default"  
 }
 
-/*
+
 variable "AWS_ACCESS_KEY_ID" {}
 variable "AWS_SECRET_ACCESS_KEY" {}
-*/
+
 
 # Cluster
 variable "aws_ssh_key_name" {}
