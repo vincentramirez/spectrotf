@@ -26,5 +26,5 @@ description = "aws operating region"
 variable "aws_region_az" {
 description = "aws availability zones"
   type        = string
-  default     = ["us-east-1a"]
+  default     = "us-east-1a"
 }
