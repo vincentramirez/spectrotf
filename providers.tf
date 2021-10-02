@@ -26,7 +26,6 @@ variable "sc_project_name" {
   description = "Spectro Cloud Project (e.g: Default)"
   default     = "Default"
 }
-*/
 
 provider "spectrocloud" {
   host         = var.sc_host
@@ -34,3 +33,4 @@ provider "spectrocloud" {
   password     = var.sc_password
   project_name = var.sc_project_name
 }
+*/
