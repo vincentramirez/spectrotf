@@ -29,3 +29,9 @@ description = "aws availability zones"
   type        = string
   default     = "us-east-1a"
 }
+
+variable "cluster_cloud_account_name" {
+description = "cloud account added to Spectro Cloud"
+  type        = string
+  default     = "myawskeys"
+}

@@ -1,7 +1,7 @@
 
 # If looking up a cloudaccount instead of creating one
  data "spectrocloud_cloudaccount_aws" "account" {
-    id = spectrocloud
+    id = <uid>
    name = var.cluster_cloud_account_name
  }
 
